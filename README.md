@@ -1,7 +1,8 @@
-A DEDUPLICATION PIPELINE TO CLEAN AND REMOVE DUPLICATES IN FSQ PLACES DATA
+# A DEDUPLICATION PIPELINE TO CLEAN AND REMOVE DUPLICATES IN FSQ PLACES DATA
 
 
-Pipeline Structure
+### Pipeline Structure
+```text
 ├── data
 │   ├── blacklists                  <- Contain blacklists for specific FSQ datasets
 │   ├── data_setup.ipynb            <- Notebook for FSQ data extraction
