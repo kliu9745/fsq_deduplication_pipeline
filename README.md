@@ -24,14 +24,16 @@
 ├── fsq_deduplication_script.ipynb <- Original file used to build pipeline -- use as a reference only
 ├── dedup_job.sbatch               <- Use to run pipeline in batches
 └── run_pipeline.py                <- Main script to run pipeline
-
+```
 ### SETUP and USAGE
+```text
 First, cd to this folder called 'fsq_dedup_pipeline' in your local directory.
 On G2, the path is: '/share/garg/accessgaps2024/fsq_dedup_pipeline'. 
 Then, activate the environment: 'conda activate /share/garg/conda_virtualenvs/wildfires'.
-
+````
 ### Running the Pipeline:
 
+```text
 You have two sets of options: 
 1. Provide Your Own FSQ Data or Generate FSQ Data
 2. Provide You Own Blacklist for your data, or Generate a Custom Blacklist within the pipeline
@@ -91,3 +93,4 @@ python run_pipeline.py
 --name_threshold 90 
 --labeled_df_file_path results/fsq_lbled_1005.parquet 
 --metric_file_path results/fsq_10005_metrics
+```
