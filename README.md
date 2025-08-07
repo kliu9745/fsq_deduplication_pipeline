@@ -4,7 +4,7 @@
 ### Pipeline Structure
 ```text
 ├── data
-│   ├── blacklists                  <- Contain blacklists for specific FSQ datasets
+│   ├── blacklists                  <- Contains blacklists for specific FSQ datasets
 │   ├── data_setup.ipynb            <- Notebook for FSQ data extraction
 │   ├── data_setup.py               <- Script for data_setup.ipynb used in other files
 │   ├── fsq_data                    <- Stores FSQ Datasets for specific cities and states
