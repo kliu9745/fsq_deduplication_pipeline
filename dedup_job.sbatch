@@ -18,8 +18,4 @@ module load python/3.10  # Or your cluster's module system
 source /share/apps/anaconda3/2021.05/etc/profile.d/conda.sh
 conda activate wildfires
 
-python run_pipeline.py \
-  --input data/fsq_pois_10005 \
-  --output results/man_fqs_labelled \
-  --name_threshold 95 \
-  --max_distance 100 \
+python3 run_pipeline.py "$@"

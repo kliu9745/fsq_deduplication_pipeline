@@ -15,7 +15,12 @@ venv/
 Thumbs.db
 
 # Ignore data/output
-data/
+data/firehouses
+data/fsq_data
+data/nyct2020_25b
+data/police_stations
+data/tl_2020_us_zcta520
+data/tl_2024_us_county
 results/
 logs/
 *.csv
