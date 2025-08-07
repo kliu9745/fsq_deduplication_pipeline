@@ -4,7 +4,7 @@
 ### Pipeline Structure
 ```text
 ├── data
-│   ├── blacklists                  <- Contain blacklists for specific FSQ datasets
+│   ├── blacklists                  <- Contains blacklists for specific FSQ datasets
 │   ├── data_setup.ipynb            <- Notebook for FSQ data extraction
 │   ├── data_setup.py               <- Script for data_setup.ipynb used in other files
 │   ├── fsq_data                    <- Stores FSQ Datasets for specific cities and states
@@ -20,7 +20,7 @@
 ├── logs                           <- Produces both a console log and error log file here for each job ran in the slurm script
 ├── results                        <- Stores the final deduplicated and labeled datasets produced by the pipeline
 ├── analysis                        
-│   └── validation.ipynb           <- Contains Visualizations and Plots for FSQ Data, Validations, and Demographic Analysis
+│   └── validation.ipynb           <- Contains visualizations and plots for FSQ Data, Validations, and Demographic Analysis
 ├── fsq_deduplication_script.ipynb <- Original file used to build pipeline -- use as a reference only
 ├── dedup_job.sbatch               <- Use to run pipeline in batches
 └── run_pipeline.py                <- Main script to run pipeline
